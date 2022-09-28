@@ -22,12 +22,12 @@ object Dependencies {
   private val scodecCoreVersion = "1.11.4"
   private val antlrValue = "4.7.2"
   private val slf4jVersion = "1.7.25"
-  private val jacksonVersion = "2.13.0"
+  private val jacksonVersion = "2.13.4"
 
   private val scalatestVersion = "3.0.9"
 
-  private val defaultSparkVersionForScala211 = "2.4.8"
-  private val defaultSparkVersionForScala212 = "3.2.2"
+  private val defaultSparkVersionForScala211 = "3.3.0"
+  private val defaultSparkVersionForScala212 = "3.3.0"
   private val defaultSparkVersionForScala213 = "3.3.0"
 
   def sparkFallbackVersion(scalaVersion: String): String = {
