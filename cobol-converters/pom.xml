@@ -48,17 +48,10 @@
         </dependency>
 
         <!-- COBOL parser -->
-<!--        <dependency>-->
-<!--            <groupId>za.co.absa.cobrix</groupId>-->
-<!--            <artifactId>cobol-parser_${scala.compat.version}</artifactId>-->
-<!--            <version>${project.version}</version>-->
-<!--        </dependency>-->
         <dependency>
             <groupId>za.co.absa.cobrix</groupId>
             <artifactId>cobol-parser_${scala.compat.version}</artifactId>
             <version>${project.version}</version>
-            <scope>system</scope>
-            <systemPath>C:\Users\pradeep.singh\IdeaProjects\cobrix-eap\cobol-parser\target\cobol-parser_2.12-2.5.2-SNAPSHOT.jar</systemPath>
         </dependency>
         <!-- logging -->
         <dependency>
