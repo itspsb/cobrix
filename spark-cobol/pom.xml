@@ -51,14 +51,24 @@
 			<artifactId>hadoop-client-runtime</artifactId>
 			<version>3.3.4</version>
 		</dependency>
+		<dependency>
+			<groupId>com.google.protobuf</groupId>
+			<artifactId>protobuf-java</artifactId>
+			<version>3.21.6</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>31.1-jre</version>
+		</dependency>
 		<!-- guava -->
 		<!-- Needs to be added as a separate dependency since Spark uses an newer 
 			version of Guava which has removed 'com.google.common.base.Stopwatch.elapsedMillis', 
 			however, the version of Hadoop imported by Spark relies on that method. -->
-		<dependency>
-			<groupId>com.google.guava</groupId>
-			<artifactId>guava</artifactId>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>com.google.guava</groupId>-->
+<!--			<artifactId>guava</artifactId>-->
+<!--		</dependency>-->
 
 		<!-- COBOL parser -->
 		<dependency>
