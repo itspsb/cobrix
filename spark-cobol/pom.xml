@@ -41,7 +41,16 @@
 			<artifactId>spark-streaming_${scala.compat.version}</artifactId>
 			<scope>provided</scope>
 		</dependency>
-
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-client-api</artifactId>
+			<version>3.3.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-client-runtime</artifactId>
+			<version>3.3.4</version>
+		</dependency>
 		<!-- guava -->
 		<!-- Needs to be added as a separate dependency since Spark uses an newer 
 			version of Guava which has removed 'com.google.common.base.Stopwatch.elapsedMillis', 
