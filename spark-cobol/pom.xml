@@ -61,6 +61,11 @@
 			<artifactId>guava</artifactId>
 			<version>31.1-jre</version>
 		</dependency>
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-all</artifactId>
+			<version>4.1.82.Final</version>
+		</dependency>
 		<!-- guava -->
 		<!-- Needs to be added as a separate dependency since Spark uses an newer 
 			version of Guava which has removed 'com.google.common.base.Stopwatch.elapsedMillis', 
